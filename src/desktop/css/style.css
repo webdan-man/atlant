@@ -1,4 +1,4 @@
-/* line 40, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 46, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat; }
 
-/* line 41, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 47, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 :after, :before {
   content: "";
   display: block;
@@ -14,69 +14,1325 @@
   height: 0;
   clear: both; }
 
-/* line 42, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 48, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 sup:after, sup:before, a:after, a:before, br:after, br:before, img:after, img:before, span:after, span:before, table:after, table:before, td:after, td:before, tr:after, tr:before {
   content: none; }
 
-/* line 43, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 49, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-size: 1em;
   font-weight: inherit;
   text-align: center;
-  font-family: "Roboto";
-  font-weight: 300;
-  letter-spacing: 0.01em; }
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase; }
 
-/* line 44, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 50, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif, sans-serif;
   font-weight: 400;
-  color: #141414; }
+  color: white; }
 
-/* line 45, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 51, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 a {
   text-decoration: none;
   color: inherit;
   outline: 0 !important; }
 
-/* line 46, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 52, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 button, input, textarea {
   outline: none; }
 
-/* line 47, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 53, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 section {
   width: 100%;
-  min-width: 980px;
+  min-width: 960px;
   overflow: hidden;
   position: relative;
   z-index: 2;
   min-height: 600px;
   height: 100vh;
-  background-size: cover !important; }
-  /* line 24, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
-  section > div {
-    max-width: 980px;
-    position: relative;
-    z-index: 2;
-    height: 100%;
-    margin: 0 auto; }
-    /* line 30, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
-    section > div > div {
-      width: 100%;
-      position: absolute;
-      height: 600px;
-      top: 50%;
-      margin-top: -300px; }
+  background-size: cover !important;
+  text-align: center;
+  font-size: 0; }
+  /* line 9, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  section > * {
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top; }
 
-/* line 51, /Volumes/Workspace/CACHE/GITHUB/standarts/src/desktop/css/sass/style.scss */
+/* line 64, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.wrapper {
+  max-width: 960px;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  margin: 0 auto;
+  width: 100%; }
+
+/* line 72, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.wrap {
+  width: 100%;
+  position: relative;
+  height: 600px; }
+
+/* line 82, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
 #maket {
   position: absolute;
   top: 0px;
   left: 0;
   width: 100%;
   background: url(../maket.jpg) no-repeat top center;
-  height: 13200px;
+  height: 11100px;
   opacity: 0.5;
-  z-index: 10; }
+  z-index: 10;
+  display: none; }
+
+/* line 94, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+h2 {
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: -0.6px; }
+
+/* line 99, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+h3 {
+  line-height: 36px;
+  font-size: 30px;
+  letter-spacing: -0.6px; }
+
+/* line 104, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.header {
+  position: absolute;
+  height: 50px;
+  z-index: 3;
+  min-height: auto;
+  top: 255px; }
+  /* line 112, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .header .logo_gr {
+    display: inline-block;
+    vertical-align: top;
+    float: left; }
+    /* line 115, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .header .logo_gr .logo {
+      float: left;
+      display: inline-block;
+      vertical-align: top; }
+    /* line 119, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .header .logo_gr h1 {
+      float: left;
+      font-size: 32px;
+      line-height: 50px;
+      text-align: left;
+      letter-spacing: -1.0px;
+      margin-left: 9px; }
+  /* line 128, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .header .call, .header .whatsapp {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    min-height: 30px;
+    background-position: top left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 2px 0px;
+    padding-top: 5px;
+    padding-left: 37px;
+    float: left; }
+  /* line 142, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .header .call {
+    background-image: url(../img/call.png);
+    margin-left: 173px; }
+  /* line 146, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .header .whatsapp {
+    background-image: url(../img/whatsapp.png);
+    margin-left: 24px; }
+  /* line 150, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .header .btn_menu {
+    width: 50px;
+    height: 50px;
+    background-color: #70b870;
+    border-radius: 25px;
+    background-image: url(../img/btn_menu.png);
+    float: right; }
+    /* line 157, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .header .btn_menu:hover {
+      background-color: #548a54; }
+
+/* line 163, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec1 {
+  background-image: url(../img/bg_sec1.jpg);
+  height: 1200px;
+  padding-top: 250px; }
+  /* line 167, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 .wrap {
+    padding-top: 113px; }
+  /* line 170, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 .title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px; }
+  /* line 175, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 h2 {
+    margin-top: 31px; }
+  /* line 178, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 h3 {
+    line-height: 36px;
+    font-size: 30px;
+    margin-top: 1px;
+    letter-spacing: -0.6px; }
+    /* line 183, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec1 h3 span {
+      font-size: 27px; }
+  /* line 187, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 .btn {
+    width: 220px;
+    height: 50px;
+    background-color: #cc1000;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: -0.4px;
+    margin-top: 72px; }
+    /* line 200, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec1 .btn:hover {
+      background-color: #990c00; }
+  /* line 204, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec1 .scroll {
+    background-image: url(../img/scroll.png);
+    display: inline-block;
+    vertical-align: top;
+    width: 26px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    bottom: 0px;
+    cursor: pointer; }
+
+/* line 216, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec2 {
+  background-image: url(../img/bg_sec2.jpg);
+  height: 1000px;
+  padding-top: 114px; }
+  /* line 225, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec2 .wr_r {
+    width: 480px;
+    float: right;
+    position: relative; }
+  /* line 230, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec2 h2 {
+    margin-top: 31px;
+    text-align: left;
+    letter-spacing: -0.9px; }
+  /* line 235, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec2 h3 {
+    margin-top: 7px;
+    text-align: left; }
+  /* line 239, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec2 .slider_top {
+    float: left;
+    margin-top: 127px; }
+    /* line 242, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec2 .slider_top .kind_gr {
+      float: left;
+      position: relative; }
+      /* line 245, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .kind_gr .aim {
+        position: absolute;
+        background-image: url(../img/aim.png);
+        width: 60px;
+        height: 60px;
+        left: -285px;
+        top: 27px; }
+        /* line 252, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .kind_gr .aim:after {
+          content: "";
+          position: absolute;
+          background-color: white;
+          height: 2px;
+          width: 200px;
+          top: 29px;
+          left: 60px; }
+      /* line 262, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .kind_gr img {
+        float: left;
+        margin-right: 20px; }
+      /* line 266, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .kind_gr p {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+        float: left; }
+      /* line 272, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .kind_gr span {
+        color: #b9c1cb;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        float: left;
+        margin-top: 10px; }
+    /* line 283, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec2 .slider_top .kind_gr.point1 .aim {
+      left: -285px;
+      top: 27px; }
+      /* line 286, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .kind_gr.point1 .aim:after {
+        width: 200px; }
+    /* line 292, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec2 .slider_top .aim_m {
+      position: absolute;
+      background-image: url(../img/aim_min.png);
+      width: 30px;
+      height: 30px;
+      cursor: pointer; }
+      /* line 298, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m:hover {
+        background-image: url(../img/aim.png);
+        width: 60px;
+        height: 60px; }
+      /* line 303, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m.noact {
+        display: none; }
+      /* line 306, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m.min1 {
+        top: 392px;
+        left: -270px; }
+        /* line 309, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .aim_m.min1:hover {
+          top: 377px;
+          left: -285px; }
+      /* line 314, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m.min2 {
+        top: 336px;
+        left: -320px; }
+        /* line 317, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .aim_m.min2:hover {
+          top: 321px;
+          left: -335px; }
+      /* line 322, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m.min3 {
+        top: 181px;
+        left: -190px; }
+        /* line 325, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .aim_m.min3:hover {
+          top: 166px;
+          left: -205px; }
+      /* line 330, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .aim_m.min4 {
+        top: 128px;
+        left: -214px; }
+        /* line 333, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .aim_m.min4:hover {
+          top: 113px;
+          left: -229px; }
+    /* line 339, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec2 .slider_top .form_cen {
+      background-image: url(../img/bg_price.png);
+      width: 481px;
+      height: 96px;
+      float: left;
+      margin-left: -71px;
+      margin-top: 134px;
+      padding-left: 110px;
+      padding-top: 6px; }
+      /* line 348, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .form_cen p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+        float: left;
+        text-align: left;
+        display: inline-block;
+        vertical-align: top; }
+      /* line 356, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .form_cen .cena {
+        font-size: 48px;
+        line-height: 50px;
+        font-family: "Roboto Condensed", sans-serif;
+        margin-left: 14px;
+        letter-spacing: -0.4px;
+        float: left;
+        text-align: left;
+        margin-top: 10px;
+        display: inline-block;
+        vertical-align: top; }
+      /* line 367, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec2 .slider_top .form_cen .btn {
+        width: 110px;
+        height: 40px;
+        background-color: #1b1a1f;
+        border-radius: 3px;
+        box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+        line-height: 40px;
+        text-transform: uppercase;
+        letter-spacing: -0.6px;
+        font-family: "Roboto Condensed", sans-serif;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 15px; }
+        /* line 380, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+        .sec2 .slider_top .form_cen .btn:hover {
+          background-color: black; }
+
+/* line 387, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec3 {
+  background-image: url(../../img/bg_sec3.jpg);
+  height: 1096px;
+  padding-top: 255px; }
+  /* line 395, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 h2 {
+    color: #1b1a1f;
+    font-size: 30px;
+    line-height: 30px; }
+  /* line 400, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 h3 {
+    color: #cc1000;
+    font-size: 40px;
+    line-height: 48px; }
+  /* line 405, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 .calk_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 49px; }
+  /* line 410, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 .calk1 {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 413, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 .title {
+    color: #5d6978;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px; }
+  /* line 419, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 .btn {
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 38px 8px;
+    padding-top: 40px;
+    cursor: pointer; }
+    /* line 428, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec3 .btn span {
+      color: #0f151a;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 18px;
+      line-height: 20px;
+      text-transform: uppercase;
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 20px; }
+  /* line 439, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 img {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 442, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec3 .line_calk {
+    background-image: url(../img/line_calk.png);
+    width: 510px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: 107px; }
+    /* line 449, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec3 .line_calk .point {
+      width: 30px;
+      height: 30px;
+      background-color: #70b870;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: top;
+      position: absolute;
+      font-size: 12px;
+      line-height: 30px;
+      text-transform: uppercase;
+      top: 0;
+      display: none; }
+      /* line 461, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec3 .line_calk .point:hover, .sec3 .line_calk .point.active {
+        display: inline-block; }
+      /* line 464, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec3 .line_calk .point.point1 {
+        left: 0px; }
+      /* line 467, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec3 .line_calk .point.point2 {
+        left: 160px; }
+      /* line 470, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec3 .line_calk .point.point3 {
+        right: 160px; }
+      /* line 473, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec3 .line_calk .point.point4 {
+        right: 0; }
+
+/* line 479, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec4 {
+  background-image: url(../../img/bg_sec4.jpg);
+  height: 1100px;
+  padding-top: 248px; }
+  /* line 487, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 h2 {
+    color: #fefefe;
+    font-size: 40px;
+    line-height: 50px; }
+  /* line 492, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 .video {
+    width: 620px;
+    height: 380px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    background-image: url(../img/bg_video.jpg);
+    cursor: pointer;
+    margin-top: 56px; }
+  /* line 502, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 .play {
+    width: 80px;
+    height: 80px;
+    background-color: #cc1000;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    background-image: url(../img/play.png);
+    background-position: 29px;
+    cursor: pointer; }
+  /* line 516, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 .vid_gr {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 45px; }
+  /* line 521, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 .pod_vid {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 55px; }
+  /* line 525, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 img {
+    float: left;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 529, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec4 p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 7px; }
+
+/* line 539, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec5 {
+  background-image: url(../img/bg_sec5.jpg);
+  height: 1100px;
+  padding-top: 259px; }
+  /* line 547, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 h2 {
+    color: #1b1a1f;
+    font-size: 30px;
+    line-height: 30px; }
+  /* line 552, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 h3 {
+    color: #cc1000;
+    font-size: 40px;
+    line-height: 48px; }
+  /* line 557, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .form_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 54px; }
+  /* line 562, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .form_gr_l {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    float: left; }
+    /* line 566, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .form_gr_l p {
+      color: #5d6978;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 20px;
+      margin-bottom: 43px; }
+  /* line 574, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .btn {
+    width: 460px;
+    height: 60px;
+    background-color: white;
+    border-radius: 3px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #1b1a1f;
+    display: inline-block;
+    vertical-align: top; }
+    /* line 585, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .btn:hover, .sec5 .btn.active {
+      background-color: #70b870;
+      box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25);
+      color: white; }
+  /* line 591, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .rul_gr, .sec5 .raz_gr {
+    width: 220px;
+    height: 60px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 8px; }
+    /* line 600, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .rul_gr:before, .sec5 .raz_gr:before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/open_sp.png);
+      width: 10px;
+      height: 7px;
+      top: 27px;
+      right: 26px;
+      cursor: pointer; }
+  /* line 611, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .rul_p, .sec5 .raz_p {
+    font-size: 16px;
+    line-height: 60px;
+    text-align: left;
+    float: left;
+    margin-left: 18px; }
+  /* line 623, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .rul_p {
+    color: #5d6978; }
+  /* line 628, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .raz_p {
+    color: #0f151a; }
+  /* line 631, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .form_gr_r {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    padding-right: 9px;
+    margin-top: 52px; }
+  /* line 638, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .cena_g, .sec5 .cena_r {
+    width: 411px;
+    height: 96px;
+    float: right;
+    padding-left: 110px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 16px; }
+    /* line 645, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_g p, .sec5 .cena_r p {
+      font-size: 14px;
+      line-height: 20px;
+      text-align: left;
+      float: left;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 5px; }
+    /* line 653, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_g span, .sec5 .cena_r span {
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 48px;
+      line-height: 50px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      float: left;
+      margin-left: 14px;
+      letter-spacing: -0.5px; }
+  /* line 664, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .cena_g {
+    background-image: url(../img/bg_price_w.png); }
+    /* line 666, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_g p {
+      color: #5d6978; }
+    /* line 669, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_g span {
+      color: #1b1a1f; }
+  /* line 673, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .number_gr {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin: 5px 0px; }
+    /* line 677, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .number_gr span {
+      display: inline-block;
+      vertical-align: top;
+      color: #cc1000;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 18px;
+      line-height: 20px;
+      text-transform: uppercase;
+      float: right;
+      margin-top: 10px;
+      letter-spacing: -0.1px; }
+  /* line 689, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .num_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    position: relative;
+    float: right;
+    margin-right: 24px; }
+    /* line 699, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .num_gr:before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/open_sp.png);
+      width: 10px;
+      height: 7px;
+      top: 17px;
+      right: 16px;
+      cursor: pointer; }
+  /* line 710, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .num_p {
+    display: inline-block;
+    vertical-align: top;
+    color: #0f151a;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: left;
+    float: left;
+    margin-left: 13px; }
+  /* line 721, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 .cena_r {
+    background-image: url(../../img/bg_price_r.png);
+    margin-top: 14px; }
+    /* line 724, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_r p {
+      color: white; }
+    /* line 727, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 .cena_r span {
+      color: white; }
+  /* line 731, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec5 form {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 95px; }
+    /* line 735, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 form p {
+      color: #5d6978;
+      font-size: 18px;
+      line-height: 20px;
+      text-align: left;
+      float: left;
+      margin-top: 9px;
+      margin-left: 10px;
+      margin-right: 29px; }
+    /* line 745, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 form .btn {
+      width: 220px;
+      height: 60px;
+      background-color: #1b1a1f;
+      border-radius: 3px;
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+      font-size: 18px;
+      font-family: "Roboto Condensed", sans-serif;
+      line-height: 60px;
+      text-transform: uppercase;
+      color: white; }
+    /* line 757, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec5 form .inp {
+      width: 220px;
+      height: 60px;
+      background-color: white;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+      font-size: 18px;
+      line-height: 60px;
+      text-align: center;
+      float: left;
+      margin: 0px 10px; }
+
+/* line 771, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+textarea, input {
+  border: 0;
+  outline: none; }
+
+/* line 775, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec5 ::-webkit-input-placeholder {
+  color: #5d6978; }
+
+/* line 776, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec5 ::-moz-placeholder {
+  color: #5d6978; }
+
+/* line 777, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec5 :-moz-placeholder {
+  color: #5d6978; }
+
+/* line 778, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec5 :-ms-input-placeholder {
+  color: #5d6978; }
+
+/* line 780, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec7 ::-webkit-input-placeholder {
+  color: #b9c1cb; }
+
+/* line 781, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec7 ::-moz-placeholder {
+  color: #b9c1cb; }
+
+/* line 782, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec7 :-moz-placeholder {
+  color: #b9c1cb; }
+
+/* line 783, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec7 :-ms-input-placeholder {
+  color: #b9c1cb; }
+
+/* line 785, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec10 ::-webkit-input-placeholder {
+  color: #b9c1cb; }
+
+/* line 786, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec10 ::-moz-placeholder {
+  color: #b9c1cb; }
+
+/* line 787, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec10 :-moz-placeholder {
+  color: #b9c1cb; }
+
+/* line 788, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec10 :-ms-input-placeholder {
+  color: #b9c1cb; }
+
+/* line 790, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec6 {
+  background-image: url(../img/bg_sec6.jpg);
+  height: 1104px;
+  padding-top: 248px; }
+  /* line 798, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 h2 {
+    color: #1b1a1f;
+    font-size: 40px;
+    line-height: 50px; }
+  /* line 803, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 .video_gr {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 76px; }
+  /* line 808, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 .vid_gr {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 811, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 .video {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0px 8px;
+    cursor: pointer;
+    z-index: 3; }
+    /* line 818, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .video.vid1 {
+      background-image: url(../img/vid1.jpg); }
+    /* line 821, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .video.vid2 {
+      background-image: url(../img/vid2.jpg); }
+    /* line 824, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .video.vid3 {
+      background-image: url(../img/vid3.jpg); }
+  /* line 828, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 .play {
+    width: 80px;
+    height: 80px;
+    background-color: #cc1000;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+    background-image: url(../img/play.png);
+    background-position: 29px;
+    cursor: pointer; }
+  /* line 842, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec6 .pod_vid_gr {
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 300px;
+    margin-top: -40px; }
+    /* line 849, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .pod_vid_gr img {
+      display: inline-block;
+      vertical-align: top;
+      border-radius: 50%; }
+    /* line 853, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .pod_vid_gr p {
+      width: 100%;
+      line-height: 30px;
+      color: #1b1a1f;
+      font-size: 18px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 13px; }
+    /* line 861, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec6 .pod_vid_gr span {
+      width: 100%;
+      color: #5d6978;
+      font-size: 14px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 7px; }
+
+/* line 870, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec7 {
+  background-image: url(../img/bg_sec7.jpg);
+  height: 1100px;
+  padding-top: 250px; }
+  /* line 878, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 h2 {
+    width: 530px;
+    height: 80px;
+    border: 4px solid #cc1000;
+    color: #cc1000;
+    font-size: 40px;
+    line-height: 69px;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 887, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 .title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 21px; }
+  /* line 893, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 .form_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 780px;
+    height: 400px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 39px; }
+  /* line 901, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 .titl {
+    color: #1b1a1f;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: -0.5px; }
+  /* line 910, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 .line {
+    width: 100%;
+    height: 1px;
+    background-color: #d3dae1;
+    border-radius: 1px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 918, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 .many {
+    margin-top: 38px; }
+    /* line 920, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 .many p {
+      color: #5d6978;
+      font-size: 18px;
+      line-height: 20px; }
+    /* line 925, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 .many .btn {
+      width: 160px;
+      height: 60px;
+      background-color: #f2f4f6;
+      border-radius: 3px;
+      color: #1b1a1f;
+      font-size: 18px;
+      line-height: 60px;
+      margin: 21px 8px;
+      display: inline-block;
+      vertical-align: top; }
+      /* line 935, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+      .sec7 .many .btn:hover, .sec7 .many .btn.active {
+        background-color: #70b870;
+        box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.25);
+        color: #fefefe; }
+  /* line 942, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec7 form {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 16px; }
+    /* line 946, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 form p {
+      color: #5d6978;
+      font-size: 18px;
+      line-height: 20px; }
+    /* line 951, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 form .inp {
+      width: 220px;
+      height: 60px;
+      background-color: #f2f4f6;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+      color: #b9c1cb;
+      font-size: 18px;
+      line-height: 60px;
+      text-align: center; }
+    /* line 962, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 form .btn {
+      width: 220px;
+      height: 60px;
+      background-color: #1b1a1f;
+      border-radius: 3px;
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+      font-family: "Roboto Condensed", sans-serif;
+      color: white;
+      font-size: 22px;
+      line-height: 60px;
+      text-transform: uppercase; }
+    /* line 974, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec7 form .inp, .sec7 form .btn {
+      margin: 22px 8px; }
+
+/* line 979, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec8 {
+  background-image: url(../img/bg_sec8.jpg);
+  height: 1100px;
+  padding-top: 245px; }
+  /* line 987, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 h2 {
+    color: #cc1000;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -1.0px; }
+  /* line 993, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 h3 {
+    color: #1b1a1f;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 4px; }
+  /* line 999, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slid_w {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 31px;
+    font-size: 0; }
+  /* line 1006, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slider {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%; }
+  /* line 1010, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .line {
+    width: 1px;
+    height: 500px;
+    background-color: #b9c1cb;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    margin-left: -1px; }
+  /* line 1021, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slid {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1024, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd_gr, .sec8 .orig_gr {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1027, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd_gr {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1030, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slids {
+    width: 460px;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative; }
+  /* line 1036, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slid_p1 {
+    background-image: url(../img/slid_p1.jpg); }
+  /* line 1039, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd, .sec8 .orig {
+    width: 125px;
+    height: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    bottom: -20px;
+    position: absolute; }
+  /* line 1051, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd {
+    background-color: #cc1000;
+    border-radius: 3px 0px 0px 3px;
+    right: 0; }
+  /* line 1056, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd_text, .sec8 .orig_text {
+    color: #5d6978;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 38px; }
+  /* line 1062, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .podd_text {
+    text-align: right;
+    margin-right: 20px; }
+  /* line 1066, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .orig_gr {
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1069, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .slid_o1 {
+    background-image: url(../img/slid_o1.jpg); }
+  /* line 1072, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .orig {
+    background-color: #6bb36b;
+    border-radius: 0px 3px 3px 0px;
+    left: 0; }
+  /* line 1077, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .orig_text {
+    text-align: left;
+    margin-left: 20px; }
+  /* line 1081, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .prev, .sec8 .next {
+    width: 50px;
+    height: 50px;
+    background-color: #1b1a1f;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -74px; }
+  /* line 1092, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .prev {
+    background-image: url(../img/prev_w.png);
+    left: 0px; }
+  /* line 1096, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec8 .next {
+    background-image: url(../img/next_w.png);
+    right: 0; }
+
+/* line 1101, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec9 {
+  background-image: url(../img/bg_sec9.jpg);
+  height: 1100px;
+  padding-top: 289px; }
+  /* line 1109, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec9 h2 {
+    display: none; }
+  /* line 1112, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec9 .glav {
+    background-image: url(../img/glav.png);
+    width: 334px;
+    height: 561px;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1118, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec9 .glav_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    float: right;
+    min-width: 460px; }
+  /* line 1124, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec9 .text {
+    color: #5d6978;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 94px;
+    margin-left: -1px;
+    position: relative; }
+    /* line 1133, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec9 .text:before {
+      content: "";
+      background-image: url(../img/zap.png);
+      width: 53px;
+      height: 42px;
+      position: absolute;
+      top: -17px;
+      left: -70px; }
+  /* line 1143, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec9 .glav_n {
+    line-height: 30px;
+    color: #1b1a1f;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 29px;
+    margin-left: -1px; }
+    /* line 1150, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec9 .glav_n span {
+      color: #5d6978;
+      font-size: 14px;
+      text-align: left; }
+
+/* line 1158, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+.sec10 {
+  height: 1200px;
+  background-color: inherit; }
+  /* line 1161, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .foot {
+    width: 100%;
+    background-image: url(../img/bg_sec10.png);
+    height: 734px;
+    z-index: 4;
+    position: relative;
+    padding-top: 244px; }
+  /* line 1173, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 h2 {
+    display: none; }
+  /* line 1178, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .title {
+    color: #5d6978;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px; }
+  /* line 1184, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 textarea {
+    width: 700px;
+    height: 60px;
+    background-color: #f2f4f6;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #b9c1cb;
+    font-size: 14px;
+    line-height: 20px;
+    resize: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 1%;
+    margin-top: 16px;
+    padding-left: 10px;
+    padding-top: 9px; }
+  /* line 1200, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .inp, .sec10 .btn {
+    margin: 20px 8px; }
+  /* line 1203, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .inp {
+    width: 250px;
+    height: 40px;
+    background-color: #f2f4f6;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+    color: #b9c1cb;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px; }
+  /* line 1215, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .btn {
+    width: 160px;
+    height: 40px;
+    background-color: #1b1a1f;
+    border-radius: 3px;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1228, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .location_gr {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 22px; }
+  /* line 1233, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .location {
+    background-image: url(../img/location.png);
+    width: 34px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: top; }
+  /* line 1239, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .addr {
+    font-size: 14px;
+    line-height: 30px;
+    color: #5d6978;
+    margin-top: 13px; }
+  /* line 1245, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .mail {
+    font-size: 14px;
+    line-height: 30px;
+    color: #ff1500;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px; }
+    /* line 1252, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec10 .mail:hover {
+      text-decoration: none; }
+  /* line 1256, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .map {
+    background-image: url(../img/map.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3; }
+  /* line 1266, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 footer {
+    width: 100%;
+    height: 100px;
+    background-color: #70b870;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    padding: 28px 0px; }
+  /* line 1277, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .copyr {
+    line-height: 20px;
+    font-size: 14px; }
+  /* line 1281, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+  .sec10 .politic {
+    font-size: 12px;
+    text-decoration: underline;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px; }
+    /* line 1287, D:/CACHE/GITHUB/atlant/src/desktop/css/sass/style.scss */
+    .sec10 .politic:hover {
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
